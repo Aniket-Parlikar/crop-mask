@@ -64,6 +64,22 @@ python -m unittest test/integration_test_labeled.py
 python -m unittest test/integration_test_model_bbox.py
 python -m unittest test/integration_test_model_evaluation.py
 ```
+## Setup issues on Windows:
+For installing the environment on Windows machine, kindly follow the given steps:
+
+1)For installing geopandas
+- pip install pipwin
+- pipwin install gdal
+- pipwin install fiona
+- pip install geopandas
+
+2)For installing netcdf4
+- pip uninstall netcdf4
+- pip install netcdf4
+
+3)For installing pyproj
+1)mamba remove pyproj
+2)pip install pyproj
 
 ## Previously generated crop maps
 
